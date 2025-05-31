@@ -1,12 +1,15 @@
 function App() {
-
   return (
     <>
-      <div className="bg-black text-white min-h-screen flex justify-center items-center font-bold italic text-6xl">
-        Hello World!
+      <div className="flex justify-center">
+        <div className="bg-black backdrop-blur-3xl flex text-white justify-around w-80 mt-2 items-center p-4 rounded-full">
+          <span>Home</span>
+          <span>About</span>
+          <span>Contact</span>
+        </div>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
